@@ -1,0 +1,38 @@
+.heading {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    color: #253757;
+    margin-top: 350px;
+}
+
+.card {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+        width: 264px;
+        height: 382px;
+
+        &__img {
+            margin-bottom: 64px;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+        }
+
+        &__text {
+            font-size: 16px;
+            mix-blend-mode: normal;
+            color: #334563;
+        }
+    }
+
+    &__heading {
+        font-weight: 900;
+        font-size: 19.6px;
+        color: #253757;
+        margin-bottom: 32px;
+    }
+}
