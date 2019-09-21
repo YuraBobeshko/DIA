@@ -1,0 +1,118 @@
+.process {
+    margin-top: 300px;
+    width: 362px;
+
+    &__top {
+        display: flex;
+    }
+
+    &__logo {
+        margin: 15px 15px 21px 0;
+        width: 21px;
+        height: 21px;
+    }
+
+    .process__heading {
+        font-weight: 800;
+        color: #56CCF2;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 16px;
+        mix-blend-mode: normal;
+        color: #334563;;
+    }
+
+    &__item {
+        text-align: center;
+        background-color: #fff; 
+        z-index: 1;
+        position: absolute;
+        width: 240px;
+        height: 256px;
+        padding: 40px 32px;
+        box-sizing: border-box;
+        box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.02);
+    }
+
+    &__item-circle {
+        display: block;
+        margin-bottom: 32px;
+        width: 48px;
+        height: 48px;
+        opacity: 0.1;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    &__number {
+        top: 25px;
+        left: 107px;
+        position: absolute;
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__text- {
+        margin-top: 50px;
+        color: #253757;
+        mix-blend-mode: normal;
+        font-size: 12.6px;
+    }
+}
+
+.process__section> div:nth-child(2) {
+    left: 576px;
+    top: 136px;
+
+    .process__item-circle {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #56CCF2, #56CCF2), #C4C4C4;
+    }
+
+    .process__number {
+        color: #56CCF2;
+    }
+}
+
+.process__section> div:nth-child(3) {
+    left: 874px;
+    top: 24.55px;
+
+    .process__item-circle {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #FCC304;    
+    }
+
+    .process__number {
+        color: #fcc61f;
+    }
+}
+
+.process__section> div:nth-child(4) {
+    left: 576px;
+    top: 520px;
+
+    .process__item-circle {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #03D542, #03D542), #C4C4C4;
+    }
+
+    .process__number {
+        color: #0ed855;
+    }
+}
+
+.process__section> div:nth-child(5) {
+    left: 874px;
+    top: 408.55px;
+
+    .process__item-circle {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #F25656;    
+    }
+
+    .process__number {
+        color: #f36362;
+    }
+}

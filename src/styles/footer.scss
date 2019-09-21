@@ -1,0 +1,11 @@
+.footer {
+    margin: 136px auto 83px;
+    display: flex;
+    justify-content: space-between;
+
+    &__nav {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

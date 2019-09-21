@@ -1,2 +1,16 @@
 $header-text-color: #fff;
 $text-color: #56CCF2;
+
+.heading {
+    font-weight: 900;
+    font-size: 32px;
+    color: #253757;
+    width: 362px;
+}
+
+@mixin block {
+    position: absolute;
+    opacity: 0.5;
+    border-radius: 500px;
+    transform: rotate(-65.1deg);
+}

@@ -1,0 +1,117 @@
+
+.testimonials {
+
+    &__blcok {
+        vertical-align: top;
+
+        &__head  {
+            margin-top: 165px;
+            display: flex;
+            align-items: center;
+        }
+
+        &__img {
+            margin-right: 10px;
+            width: 21px;
+            height: 21px;
+        }
+    }
+
+    &__block__heading {
+        color: $text-color;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+    &__cards {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card {
+        box-sizing: border-box;
+        max-width: 314px;
+        position: relative;
+        background: #FEFEFE;
+        box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.05);
+        text-align: center;
+        padding: 95px 32px 58px;
+    }
+
+    &__img {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 6px;
+    }
+
+    &__card::before {
+        z-index: 0;
+        position: absolute;
+        content: "";
+        width: 161.9px;
+        height: 64px;
+        left: 80px;
+        top: 85px;
+        // background-color: #56CCF2;
+        border-radius: 500px;
+        transform: rotate(-65deg);
+    }
+
+    &__text {
+        font-style: italic;
+        font-size: 14.4px;
+        mix-blend-mode: normal;
+        color: #253757;
+    }
+
+    &__name {
+        margin-top: 64px;
+        color: #152032;
+        font-weight: 800;
+        font-size: 12.6px;
+    }
+
+    &__rank {
+        font-weight: 800;
+        font-size: 12.6px;
+        text-transform: uppercase;
+    }
+
+    &__text::after {
+        position: absolute;
+        content: "";
+        top: 322px;
+        left: calc(50% - 32px);
+        width: 64px;
+        height: 2px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+
+    &__cards > div:nth-child(1)::before, &__cards > div:nth-child(1) > &__text::after  {
+        background-color: #56CCF2;
+    }
+
+    &__cards > div:nth-child(2)::before, &__cards > div:nth-child(2) > &__text::after {
+        background-color: #FCC304;
+    }
+
+    &__cards > div:nth-child(3)::before, &__cards > div:nth-child(3) > &__text::after {
+        background-color: #F25656;
+    }
+
+    &__cards > div:nth-child(1) &__rank {
+        color: #56CCF2;
+    }
+
+    &__cards > div:nth-child(2) &__rank {
+        color: #FCC304;
+    }
+
+    &__cards > div:nth-child(3) &__rank {
+        color: #F25656;
+    }
+}
+
