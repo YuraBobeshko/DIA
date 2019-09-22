@@ -529,7 +529,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   display: block;
   left: 50px;
   top: 420px;
@@ -543,7 +542,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #80e9a2;
   left: 972.91px;
   top: 70.7px;
@@ -556,7 +554,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #abe5f7;
   left: 1136.69px;
   top: 540.49px;
@@ -569,7 +566,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #abe5f7;
   width: 85.61px;
   height: 33.84px;
@@ -582,7 +578,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #80e9a2;
   width: 93.54px;
   height: 36.98px;
@@ -595,7 +590,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #f7aaab;
   width: 85.61px;
   height: 33.84px;
@@ -608,7 +602,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #f7aaab;
   width: 45.28px;
   height: 17.9px;
@@ -621,7 +614,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #fce084;
   width: 86.41px;
   height: 34.16px;
@@ -634,7 +626,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #80e9a2;
   width: 67.36px;
   height: 26.63px;
@@ -647,7 +638,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #e294fc;
   width: 53.69px;
   height: 21.22px;
@@ -660,7 +650,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #e294fc;
   width: 45.28px;
   height: 17.9px;
@@ -673,7 +662,6 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  border-style: solid;
   border: 6px solid #e294fc;
   width: 45.28px;
   height: 17.9px;
@@ -779,6 +767,30 @@ body {
   width: 600px;
   display: flex;
   justify-content: space-between;
+}
+
+.header__item:hover {
+  color: #FCC304;
+}
+
+.header__botton:hover {
+  transition: 0.5s;
+  background-color: #FCC304;
+}
+
+.card__item:hover, .process__item:hover, .testimonials__card:hover {
+  transition: 0.5s;
+  transform: translateY(-30px);
+  transform: scale(1.2);
+}
+
+.card__item:not(:hover), .process__item:not(:hover), .testimonials__card:not(:hover) {
+  transition: 0.3s;
+}
+
+.button__apply:hover, .button:hover {
+  transition: 0.5s;
+  background-color: #FCC304;
 }
 
 /*# sourceMappingURL=main.css.map */
