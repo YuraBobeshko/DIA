@@ -529,13 +529,13 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
+  border-style: solid;
   display: block;
-  border: 4px #80e9a2;
-  background-color: #152032;
   left: 50px;
-  top: 320px;
+  top: 420px;
   width: 143.04px;
   height: 56.54px;
+  border: 6px solid #80e9a2;
 }
 
 .color__block-2 {
@@ -543,9 +543,10 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
-  left: 1072.91px;
-  top: 248.7px;
+  border-style: solid;
+  border: 6px solid #80e9a2;
+  left: 972.91px;
+  top: 148.7px;
   width: 143.04px;
   height: 56.54px;
 }
@@ -555,7 +556,8 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
+  border-style: solid;
+  border: 6px solid #abe5f7;
   left: 1136.69px;
   top: 540.49px;
   width: 143.04px;
@@ -567,11 +569,12 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
+  border-style: solid;
+  border: 6px solid #abe5f7;
   width: 85.61px;
   height: 33.84px;
   left: 33px;
-  top: 37.65px;
+  top: 237.65px;
 }
 
 .color__block-5 {
@@ -579,7 +582,8 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
+  border-style: solid;
+  border: 6px solid #80e9a2;
   width: 93.54px;
   height: 36.98px;
   left: -131.42px;
@@ -591,7 +595,8 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
+  border-style: solid;
+  border: 6px solid #f7aaab;
   width: 85.61px;
   height: 33.84px;
   left: 1018.98px;
@@ -603,11 +608,12 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
+  border-style: solid;
+  border: 6px solid #f7aaab;
   width: 45.28px;
   height: 17.9px;
   left: 246px;
-  top: 106.07px;
+  top: 206.07px;
 }
 
 .color__block-8 {
@@ -615,11 +621,12 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
+  border-style: solid;
+  border: 6px solid #fce084;
   width: 86.41px;
   height: 34.16px;
   left: 1265.59px;
-  top: 242.88px;
+  top: 342.88px;
 }
 
 .color__block-9 {
@@ -627,7 +634,8 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
+  border-style: solid;
+  border: 6px solid #80e9a2;
   width: 67.36px;
   height: 26.63px;
   left: -200px;
@@ -639,7 +647,8 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
+  border-style: solid;
+  border: 6px solid #e294fc;
   width: 53.69px;
   height: 21.22px;
   left: 1247.02px;
@@ -651,10 +660,11 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
+  border-style: solid;
+  border: 6px solid #e294fc;
   width: 45.28px;
   height: 17.9px;
-  left: 912px;
+  left: 812px;
   top: 543.07px;
 }
 
@@ -663,11 +673,12 @@ body {
   opacity: 0.5;
   border-radius: 500px;
   transform: rotate(-65.1deg);
-  background-color: #152032;
+  border-style: solid;
+  border: 6px solid #e294fc;
   width: 45.28px;
   height: 17.9px;
   left: 281px;
-  top: 450px;
+  top: 500px;
 }
 
 .section__contacting {
