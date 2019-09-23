@@ -793,6 +793,10 @@ body {
   background-color: #FCC304;
 }
 
+.top__arrow-1:hover, .top__arrow-1:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1200px) {
   .section, .testimonials, .top {
     margin: 0 auto;
@@ -875,8 +879,8 @@ body {
   }
 
   .top__arrows {
-    top: 80px;
-    left: 80px;
+    top: -50px;
+    left: 50px;
   }
 
   .top {
