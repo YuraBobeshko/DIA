@@ -73,11 +73,12 @@
 
 .greeting {
     margin: -200px auto;
-    width: 742px;
-    height: 187px;
+    max-width: 742px;
+    max-height: 187px;
 
     .heading {
-        margin: 100px 270px;
+        margin: 100px;
+        display: block;
     }
 
     &__logo-text {
