@@ -1,0 +1,485 @@
+@media screen and (max-width: 999px) {
+  .header {
+    background-image: none;
+    background-color: #56CCF2;
+
+    &__photo-box {
+      &_button {
+        position: static;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0;
+      }
+      &_intro-box {
+        position: absolute;
+        top: 500px;
+
+      }
+    }
+  }
+  .what-we-do {
+    &__box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      width: 300px;
+
+
+      &_card-1,
+      &_card-2,
+      &_card-3 {
+        margin-right: 0;
+        text-align: center;
+        height: 350px;
+      }
+    }
+    &_title {
+      margin-bottom: 20px;
+    }
+  }
+  .process {
+    padding-top: 0;
+
+    &__box {
+      display: flex;
+      flex-direction: column;
+      padding: 0 20%;
+    }
+  }
+
+  .steps__section {
+    &-left {
+      margin-top: 0;
+      .card_step_1 {
+        margin-bottom: 5px;
+      }
+    }
+
+    &-right {
+      .card_step_2 {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .features {
+    background-image: none;
+    background-color: #56CCF2;
+    height: 600px;
+    padding: 100px 20%;
+    margin-top: 0;
+
+    &__box-top {
+      height: 20px;
+      margin-top: 0;
+
+      &_step-title {
+        margin-top: 0;
+      }
+    }
+  }
+  .testimonials {
+    padding-top: 100px;
+
+    &__step-title {
+      display: inline-block;
+      text-align: center;
+    }
+
+    &__box-cards {
+      &_card {
+        margin-right: 2%;
+      }
+    }
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &__left-box {
+      margin-right: 0;
+
+      &_top {
+        width: 260px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+      }
+      &_form {
+        width: 500px;
+        margin: auto;
+        &_button {
+          margin-top: 50px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 100px;
+        }
+      }
+    }
+
+    &__right-box {
+      &_top {
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media screen  and (max-width: 799px){
+  .header {
+    &__box {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      &-logo {
+        margin-right: 0;
+        font-size: 70px;
+      }
+    }
+    &__nav_box {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    &__about {
+      padding: 0;
+      margin: 40px 10%;
+      text-align: center;
+    }
+    &__photo-box {
+      width: 100%;
+      &_button {
+        width: 212px;
+        height: 114px;
+      }
+      &_social {
+        display: none;
+        }
+      }
+      .button-arrow {
+        width: 65px;
+        height: 76px;
+      }
+    }
+
+  .nav-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+  }
+  .nav_list {
+    margin-right: 0;
+    font-size: 30px;
+    &:last-child {
+      margin-left: 0;
+    }
+  }
+.welcome {
+  &__box {
+   width: 80%;
+  }
+}
+  .process {
+    &__box {
+      padding: 20px 5%;
+      &-left {
+        margin-right: 0;
+      }
+    }
+  }
+  .testimonials {
+    &__step-title {
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      display: block;
+    }
+  }
+.steps__section {
+  justify-content: space-between;
+}
+.contacts__left-box_form {
+    width: 100%;
+    margin: auto;
+    &_button {
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+    }
+  }
+
+  .footer {
+    &__nav {
+      margin-right: 5%;
+      margin-left: 5%;
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .testimonials {
+    padding: 50px 3%;
+    height: auto;
+
+    &__step-title {
+      margin: 30px auto;
+    }
+
+    &__box-cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      &_card {
+        margin: 0 auto;
+
+        &:last-child {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+ .vision {
+     margin-bottom: 50px;
+   }
+
+  .contacts__left-box_form {
+    width: 100%;
+    margin: auto;
+    > label {
+      width: 100%;
+      > input {
+        width: 100%;
+      }
+    }
+    &_button {
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .header {
+    &__box-logo {
+      margin-top: 10px;
+      position: relative;
+    }
+
+    &__nav_box {
+      > #menu__toggle {
+        opacity: 0;
+      }
+      .menu__btn {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 30px;
+        right: 5px;
+        width: 40px;
+        height: 50px;
+        cursor: pointer;
+        z-index: 5;
+
+        > span,
+        > span::before,
+        > span::after {
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 4px;
+          background-color: #fff;
+        }
+
+        > span::before {
+          content: '';
+          top: -8px;
+        }
+
+        > span::after {
+          content: '';
+          top: 8px;
+        }
+      }
+      #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .nav-main {
+        position: static;
+        visibility: visible;
+        left: 0;
+      }
+      &-logo {
+        margin-top: 20px;
+      }
+      .nav-main {
+        margin-top: 20px;
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        visibility: hidden;
+        background-color: #56CCF2;
+        .nav_list {
+          font-size: 30px;
+        }
+      }
+    }
+    //height: 1350px;
+    &__photo-box {
+      background-position: top;
+      &_intro-box {
+        position: absolute;
+        //top: 200px;
+      }
+      &_button {
+        display: none;
+      }
+    }
+    &__about_title {
+      font-size: 30px;
+    }
+  }
+  .welcome {
+    margin-top: -100px;
+    &__box {
+      &-top {
+        width: 100%;
+        margin: 20px auto;
+      }
+      &_illusion {
+        text-align: center;
+        font-size: 16px;
+      }
+    }
+  }
+  .what-we-do {
+    margin-top: -100px;
+  }
+  .process {
+    padding: 0;
+    &__box {
+      padding: 20px 1%;
+      &-left {
+        text-align: center;
+        margin: 0 3%;
+        &_top {
+          width: 170px;
+          margin: 0 auto;
+        }
+        &_step-title {
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .steps__section {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      margin: 30px auto;
+      position: relative;
+      height: 1006px;
+        .card_step_1 {
+          box-shadow: none;
+        }
+        .card_step_2 {
+          position: absolute;
+          top: 250px;
+          box-shadow: none;
+        }
+        .card_step_3 {
+          position: absolute;
+          top: 500px;
+          box-shadow: none;
+        }
+
+      &-right {
+        .card_step_4 {
+          position: absolute;
+          top: 750px;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+  .features {
+    padding: 0;
+    height: 670px;
+    &__box {
+      padding: 20px 5%;
+      &-top {
+        width: 150px;
+        margin: 0 auto;
+        &_step {
+          &-title {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+.testimonials {
+  padding: 50px 3%;
+  box-sizing: border-box;
+  &__box-top {
+    width: 60%;
+    margin: 0 auto;
+  }
+  &__step-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+  .vision {
+    padding: 0 5%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .contacts {
+    margin-top: 100px;
+    &__left-box {
+      &_form {
+        width: 100%;
+        &_input {
+          width: 100%;
+        }
+      }
+    }
+  }
+  label {
+    width: 100%;
+  }
+  .footer {
+    &__nav {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      margin: 40px auto;
+      text-align: center;
+    }
+  }
+}

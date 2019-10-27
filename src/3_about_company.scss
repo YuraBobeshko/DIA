@@ -1,0 +1,121 @@
+.header__about {
+  padding: 1px calc(50% - 377px);
+  margin-bottom: 80px;
+  margin-top: 85px;
+  &_title {
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 24px;
+  }
+  &_company {
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    line-height: 150%;
+  }
+  &_button {
+    box-sizing: border-box;
+    width: 226px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 64px;
+    color: black;
+    text-align: center;
+    line-height: 56px;
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 16px 65px;
+    &:hover {
+      background: rgb(23, 187, 241);
+      border: #FFFFFF solid 2px;
+      color: white;
+    }
+  }
+}
+
+.header__photo-box {
+  width: 80%;
+  height: 641px;
+  margin: 0 auto;
+  position: relative;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &_social {
+    display: flex;
+    position: absolute;
+    left: 91%;
+    top: 30%;
+    transform: rotate(90deg);
+    > a {
+      font-weight: 800;
+      font-size: 12.6px;
+      line-height: 150%;
+      color: #253757;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-right: 30%;
+    }
+  }
+  z-index: 1;
+  &_intro-box {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    &_intro {
+      font-weight: 800;
+      font-size: 12.6px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #56CCF2;
+    }
+    &_illusion {
+      font-weight: 900;
+      font-size: 19.6px;
+      color: #FFFFFF;
+    }
+  }
+  &_button {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: -80px;
+    width: 162px;
+    height: 64px;
+    border-radius: 50px;
+    z-index: 3;
+    &-left {
+      position: relative;
+      background-color: #FCC304;
+      border-radius: 60% 0 0 60%;
+      width: 50%;
+      height: 100%;
+      transition: 1s;
+      &:hover {
+        background-color: #fcfc45;
+        cursor: pointer;
+      }
+    }
+    &-right {
+      position: relative;
+      background-color: #FCC304;
+      border-radius:  0 50% 50% 0;
+      width: 50%;
+      height: 100%;
+      transition: 1s;
+      &:hover {
+        background-color: #fcfc45;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.button-arrow {
+  display: block;
+  margin: 20px auto;
+}

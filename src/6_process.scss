@@ -1,0 +1,157 @@
+.process {
+  padding: 0 4%;
+  &__box {
+    background-color: #E5E5E5;
+    padding: 160px calc(50% - 480px) 0 calc(50% - 480px);
+    display: flex;
+    &-left {
+      margin-right: 10%;
+      &_top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &_title {
+          font-weight: 600;
+          font-size: 24px;
+          box-sizing: border-box;
+          color: #56CCF2;
+          margin: 0;
+        }
+      }
+  
+      &_step-title {
+        font-weight: 900;
+        font-size: 32px;
+        color: #253757;
+        margin-top: 19px;
+        margin-bottom: 64px;
+      }
+  
+      &_step-text {
+        font-weight: normal;
+        font-size: 16px;
+        color: #334563;
+        line-height: 150%;
+      }
+    }
+  }
+  
+  .steps__section {
+    display: flex;
+    margin-left: 0;
+  
+    &-left,
+    &-right {
+      display: flex;
+      flex-direction: column;
+      width: 240px;
+    }
+  
+    &-left {
+      margin-right: 5%;
+    }
+  }
+  
+  .circle_img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    opacity: 0.1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -25px;
+  }
+  
+  .circle_1 {
+    background: #C4C4C4;
+  }
+  
+  .circle_3 {
+    background: #C4C4C4;
+  }
+  
+  .circle_2 {
+    background: #FCC304;
+  }
+  
+  .circle_4 {
+    background: #F25656;
+  }
+  
+  .card_step_1,
+  .card_step_2,
+  .card_step_3,
+  .card_step_4 {
+    box-sizing: border-box;
+    position: relative;
+    padding: 48px 32px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.07);
+    z-index: 10;
+    background-color: #FFFFFF;
+    transition: 1s;
+    animation: rotating 5s infinite ease-in-out;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  
+  
+    .card_step_1,
+    .card_step_2 {
+      margin-bottom: 128px;
+  
+    }
+  
+    .card_step_1:hover {
+      background-color: #56CCF2;
+      color: #FFFFFF;
+    }
+  
+    .card_step_2:hover {
+      background-color: #FCC304;
+      color: #FFFFFF;
+    }
+  
+    .card_step_3:hover {
+      background-color: #03D542;
+      color: #FFFFFF;
+    }
+  
+    .card_step_4:hover {
+      background-color: #F25656;
+      color: #FFFFFF;
+    }
+  
+    .number_1,
+    .number_2,
+    .number_3,
+    .number_4 {
+      font-weight: 900;
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 4px;
+    }
+  
+    .number_1 {
+      color: #56CCF2;
+    }
+  
+    .number_2 {
+      color: #FCC304;
+    }
+  
+    .number_3 {
+      color: #03D542;
+    }
+  
+    .number_4 {
+      color: #F25656
+    }
+  
+    .card_step_text {
+      Font-size: 12.6px;
+      line-height: 19px;
+    }
+  }

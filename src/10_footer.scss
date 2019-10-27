@@ -1,0 +1,30 @@
+.footer {
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 136px;
+    margin-right: 14%;
+    margin-left: 14%;
+    margin-bottom: 70px;
+    &_list {
+      list-style-type: none;
+      &_link {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150%;
+        color: #253757;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.main-title {
+  &_title {
+      box-sizing: border-box;
+      color: #56CCF2;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin: 0;
+  }
+}
